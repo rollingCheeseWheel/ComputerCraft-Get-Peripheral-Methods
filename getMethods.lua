@@ -1,6 +1,6 @@
 local peripheralType = "turbineValve"	-- Change this to the name of the peripheral you want to get the methods from. You can get the peripheral type by running "peripheral.getType(<side>)"
+local outputFolder = "/"	-- Modifying this could lead to errors
 local outputFileName = outputFolder .. "methods_" .. peripheralType	-- The name of the file the methods will be outputted to. Modifying this could lead to errors
-local outputFolder = "/"	-- Modifying this could lead to errors#
 local fileType = "txt"	-- the file type the file will have
 local wrappedPeripheral = peripheral.find(peripheralType)
 
